@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <title>
+        Formularios
+    </title>
+    <link rel="shortcut icon" href="c:\Users\AULA01\Desktop\k\descarga.png" type="image/ico" />
+</head>
+
+<body>
+<h1>Perfil de usuario</h1>
+
+    <form action="formulario_ejemplo.php" method="post">
+        <fieldset>
+        <legend>Datos personales</legend>
+        Nombre <br/>
+        <input type="text" name="nombre" placeholder="Introduce tu nombre" />
+        <br/>
+        Apellidos <br/>
+        <input type="text" name="apellidos" placeholder="Introduce tus apellidos" />
+        <br/>
+        Contraseña <br/>
+        <input type="text" name="contraseña" placeholder="Contraseña de 8 caracteres" />
+        <br/>
+        DNI <br/>
+        <input type="text" name="DNI" placeholder="Introduce tu DNI" size="10" maxlength="9" /><br/>
+        E-mail <br/>
+        <input type="text" name="email" placeholder="Introduce tu E-mail" />
+        <br/>
+        </fieldset>
+<br>
+<br>
+
+        <form action="http://wwwcarontestudio.com/formulario.php" method="post">
+            
+            <input type="checkbox" name="comida" value="hamburguesa" />
+            Recibir notificaciones
+        </form>
+
+
+     
+            <form action="http://wwwcarontestudio.com/formulario.php" method="post">
+            Sexo
+            <br>
+                <input type="radio" name="origen" value="norte" checked="checked" /> Mujer
+                <br>
+                <input type="radio" name="origen" value="sur" /> Hombre
+             
+            </form>
+
+            <form action="http://wwwcarontestudio.com/formulario.php" method="post">
+            Adjuntar foto
+                <input type="file" name="adjuntar"/>
+             
+            </form>
+
+            <form action="formulario_ejemplo.php" method="post">
+                <fieldset>
+                <legend>Intereses</legend>
+                HTML
+                <input type="checkbox" name="comida" value="hamburguesa" />
+    
+                Música
+                <input type="checkbox" name="comida" value="hamburguesa" />
+           
+                Deporte
+                <input type="checkbox" name="comida" value="hamburguesa" />
+          
+                Aventura
+                <input type="checkbox" name="comida" value="hamburguesa" />
+              
+             
+                </fieldset>
+            </form>
+<br>
+            <form>
+              
+                <input type="submit" name="enviar" value="Enviar" />
+                <input type="reset" name="limpiar" value="Reset" />
+              
+             
+               
+            </form>
+<br>
+<br>
+<br>
+</html>
